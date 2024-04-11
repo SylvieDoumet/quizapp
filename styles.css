@@ -1,0 +1,93 @@
+.question-card {
+  background-color: rgb(235, 159, 209);
+  width: 80%;
+  padding: 20px;
+  border: 5px;
+  border-color: rgb(73, 10, 51);
+  border-radius: 5px;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.headline {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: rgb(57, 8, 40);
+  background-color: rgb(231, 101, 185);
+  border: 5px;
+  border-radius: 5px;
+  border-color: rgb(73, 10, 51);
+  width: 50%;
+  text-align: center;
+}
+
+.bookmark {
+  position: fixed;
+  height: 70px;
+  width: 50px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-left: 25px solid rgb(232, 20, 157);
+  border-right: 25px solid rgb(232, 20, 157);
+  border-bottom: 25px solid transparent;
+}
+
+.bookmark:hover {
+  background-color: rgb(185, 238, 104);
+  color: rgb(211, 24, 108);
+}
+
+.question {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(57, 8, 40);
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+
+.button-show-answer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 12px 20px;
+  color: rgb(73, 10, 51);
+  background-color: rgb(232, 20, 157);
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 40%;
+  margin-bottom: 10%;
+}
+
+button:hover {
+  background-color: rgb(185, 238, 104);
+  color: rgb(211, 24, 108);
+}
+
+.tag {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(57, 8, 40);
+  background-color: rgb(244, 183, 223);
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tag:hover {
+  background-color: rgb(4, 193, 251);
+  color: rgb(145, 14, 95);
+}
