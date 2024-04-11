@@ -23,6 +23,22 @@
   text-align: center;
 }
 
+.bookmark {
+  position: fixed;
+  height: 70px;
+  width: 50px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-left: 25px solid rgb(232, 20, 157);
+  border-right: 25px solid rgb(232, 20, 157);
+  border-bottom: 25px solid transparent;
+}
+
+.bookmark:hover {
+  background-color: rgb(185, 238, 104);
+  color: rgb(211, 24, 108);
+}
+
 .question {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
