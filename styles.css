@@ -36,7 +36,9 @@ body {
   position: flex;
   height: 70px;
   width: 50px;
+* {
   box-sizing: border-box;
+  }
   border-left: 25px solid rgb(232, 20, 157);
   border-right: 25px solid rgb(232, 20, 157);
   border-bottom: 25px solid transparent;
